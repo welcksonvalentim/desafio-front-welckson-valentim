@@ -1,13 +1,15 @@
-import logo from './assets/logo.png';
-import './App.css';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+import ProfileProvider from './Context/ProfileProvider';
+import Login from './Pages/Login';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <ProfileProvider>
+      <Switch>
+        <Route exact path='/' component={ Login } />
+      </Switch>
+    </ProfileProvider>
   );
 }
 
