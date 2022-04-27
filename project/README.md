@@ -15,6 +15,7 @@ Aplicação desenvolvida com `React.js` e `CSS`.
 Realizado deploy da aplicação na plataforma Heroku e disponível em:
 * https://desafio-welckson.herokuapp.com/
 
+
 ### Ilustração da aplicação em funcionamento
 
 <img alt="Imagem tela de Login" src="src/assets/imageLogin.png" />
