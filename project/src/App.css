@@ -8,6 +8,18 @@
   width: 30 vw;
 }
 
+.footer {
+  width: 100 vw;
+  background-color: rgb(182, 252, 252);
+  border-radius: 15 px;
+}
+
+.footer h4 {
+  font-weight: 300;
+  font-size:  0.5 em;
+  color: rgb(54, 54, 54);
+}
+
 .App-header {
   background-color: #fff;
   min-height: 100vh;
