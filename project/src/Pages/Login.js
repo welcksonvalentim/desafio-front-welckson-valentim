@@ -1,7 +1,10 @@
+import Header from '../Components/Header';
+
 function Login() {
   return (
     <main>
       <h1>test</h1>
+{/*       <Header />
         <form>
           <label htmlFor="email">
             <input
@@ -33,7 +36,7 @@ function Login() {
               onClick
             />
           </label>
-        </form>
+        </form> */}
     </main>
   );
 }

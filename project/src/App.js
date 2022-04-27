@@ -1,13 +1,11 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import ProfileProvider from './Context/ProfileProvider';
-import Login from './Pages/Login';
+import Profile from './Pages/Profile';
 
 function App() {
   return (
-    <ProfileProvider>
-      <Route exact path='/' component={ Login } />
-    </ProfileProvider>
+    <Profile />
   );
 }
 
