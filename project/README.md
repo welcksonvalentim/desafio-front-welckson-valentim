@@ -13,7 +13,7 @@ Aplicação desenvolvida com `React.js` e `CSS`.
 ### Acesso ao Deploy do projeto
 
 Realizado deploy da aplicação na plataforma Heroku e disponível em:
-* https://listofcarsfrontend.herokuapp.com/cars
+* https://desafio-welckson.herokuapp.com/
 
 ### Ilustração da aplicação em funcionamento
 
