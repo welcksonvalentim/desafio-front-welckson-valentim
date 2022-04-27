@@ -36,4 +36,3 @@ Realizado deploy da aplicação na plataforma Heroku e disponível em:
 
 4. Inicialize o projeto:
     * `npm start`
-
