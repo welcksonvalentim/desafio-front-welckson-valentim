@@ -1,10 +1,11 @@
-.App {
-  text-align: center;
+.header {
+  width: 100 vw;
+  height: 20 vh;
+  background-color: rgb(130, 248, 248);
 }
 
-.App-logo {
-  height: 13vmin;
-  pointer-events: none;
+.header img {
+  width: 30 vw;
 }
 
 .App-header {

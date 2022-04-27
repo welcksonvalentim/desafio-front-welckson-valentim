@@ -1,11 +1,9 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
-import ProfileProvider from './Context/ProfileProvider';
-import Profile from './Pages/Profile';
+import Login from './Pages/Login';
 
 function App() {
   return (
-    <Profile />
+    <Login />
   );
 }
 

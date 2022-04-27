@@ -1,12 +1,13 @@
 import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 function Login() {
   return (
     <main>
-      <h1>test</h1>
-{/*       <Header />
+      <Header />
         <form>
           <label htmlFor="email">
+            <h4>Email</h4>
             <input
               className="input-name"
               type="text"
@@ -17,6 +18,7 @@ function Login() {
             />
           </label>
           <label htmlFor="password">
+            <h4>Password</h4>
             <input
               className="input-password"
               type="text"
@@ -32,11 +34,12 @@ function Login() {
               type="button"
               name="buttonSubmit"
               required
-              value="Entrar"
+              value="Logar"
               onClick
             />
           </label>
-        </form> */}
+        </form>
+      <Footer />
     </main>
   );
 }
