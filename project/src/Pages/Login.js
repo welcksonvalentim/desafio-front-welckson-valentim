@@ -45,6 +45,7 @@ function Login() {
           </label>
           <label htmlFor='button'>
             <input
+              className='loginButton'
               type='submit'
               name='button'
               value='Logar'

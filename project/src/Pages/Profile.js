@@ -37,7 +37,7 @@ function Profile() {
     findUsers();
   }, []);
 
-  const handle = ({ target: { name, value } }) => {
+  const handleUs = ({ target: { name, value } }) => {
     setUser({ ...user, [name]: value });
   };
 
@@ -45,25 +45,25 @@ function Profile() {
     <section>
       <Header />
       { user ? (
-      <section className="settingSectionPerfil">
-        <form >
+      <section className='profile'>
+        <form>
         <label htmlFor="email">
-          <input name="email" value={ user.email }  onChange={ handle } type="email" required />
+          <input name="email" value={ user.email }  onChange={ handleUs } type="email" required />
         </label>
         <label htmlFor="name">
-          <input name="name" value={ user.name } onChange={ handle } type="name" required />
+          <input name="name" value={ user.name } onChange={ handleUs } type="name" required />
         </label>
         <label htmlFor="age">
-          <input name="age" value={ user.age } onChange={ handle } type="age" required />
+          <input name="age" value={ user.age } onChange={ handleUs } type="age" required />
         </label>
         <label htmlFor="city">
-          <input name="city" value={ user.city} onChange={ handle } type="city" required />
+          <input name="city" value={ user.city} onChange={ handleUs } type="city" required />
         </label>
       </form>
         <button
           type="button"
           onClick={ handleClickExit }
-          className="settingSectionPerfilButtonExit"
+          className="profileButton"
         >
           Sair
         </button>
