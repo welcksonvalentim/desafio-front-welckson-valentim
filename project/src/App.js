@@ -5,11 +5,11 @@ import Profile from './Pages/Profile';
 
 function App() {
   return (
-    <Routes>
-        <Route exact path="/" component={ Login } />
-        <Route path="/profile" component={ Profile } />
-    </Routes>
-  );
-}
+      <Routes>
+          <Route path="/" element={ <Login />} />
+          <Route path="/profile" element={ <Profile />} />
+      </Routes>
+  )
+};
 
 export default App;
