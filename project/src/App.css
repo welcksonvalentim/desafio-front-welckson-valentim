@@ -20,7 +20,7 @@
   color: rgb(54, 54, 54);
 }
 
-.login {
+.login, .profile {
   width: 100vw;
   height: 70vh;
   display: flex;
@@ -29,7 +29,7 @@
   justify-content: center;
 }
 
-.login label {
+.login label, .profile label {
   width: 100vw;
   display: flex;
   align-items: center;
@@ -43,19 +43,45 @@
   margin-right: 10px;
 }
 
-.login input {
+.login input, .profile input {
   width: 30vw;
   height: 5vh;
   color: rgb(20, 20, 20);
   border-radius: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.login button {
+.loginButton {
   background-color: rgb(48, 245, 245);
   font-size:  1em;
   font-weight: 900;
   border-radius: 20px;
-  width: 20vw;
-  height: 8vh;
   border: 2px solid rgb(37, 177, 177);
+}
+
+.loginButton:hover {
+  background-color: rgb(39, 216, 216);
+  font-size:  1.2em;
+  border: 2px solid rgb(41, 180, 180);
+}
+
+.profileButton {
+  background-color: rgb(16, 17, 17);
+  color: rgb(231, 236, 241);
+  font-size:  1em;
+  width: 15vw;
+  height: 5vh;
+  font-weight: 600;
+  border-radius: 20px;
+  border: 2px solid rgb(33, 34, 34);
+}
+
+.profileButton:hover {
+  background-color: rgb(12, 12, 12);
+  color: rgb(231, 236, 241);
+  font-size:  1em;
+  width: 17vw;
+  height: 6vh;
+  font-weight: 600;
 }

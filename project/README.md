@@ -1,24 +1,24 @@
 # Boas vindas ao Projeto desafio front Welckson Valentim
-
-Este projeto renderiza a tela de login para acesso a aplicação de cadastro e edição de perfis. 
+Este projeto renderiza a tela de login para acesso a aplicação com informações dos perfis. 
 
 ## Funcionalidades da aplicação
 
-Esta aplicação esta em fase de desenvolvimento, sendo possível visualizar os campos de inserção do email e senha, seguidos do botão de Logar, que permitirá o acesso a aplicação.
+Esta aplicação esta em fase de desenvolvimento, sendo possível visualizar os campos de inserção do email e senha, seguidos do botão de Logar, que permitirá o acesso a tela de perfil.
+Na tela de perfil temos o preenchimendo automático das informações referentes ao email utilizado no momento do login, caso o email não seja encontrado temos a exibição de mensagem de erro.
 
 ### Tecnologias utilizadas
 
-Aplicação desenvolvida com `React.js` e `CSS`.
+Aplicação desenvolvida com `React.js`, `JavaScript`, `CSS`.
 
 ### Acesso ao Deploy do projeto
 
-Realizado deploy da aplicação na plataforma Heroku e disponível em:
-* https://desafio-welckson.herokuapp.com/
+Realizado deploy da aplicação na plataforma Surge (em virutde do número de app do Heroku) e disponível em:
+* https://desafiowelckson.surge.sh/
 
 
 ### Ilustração da aplicação em funcionamento
 
-<img alt="Imagem tela de Login" src="src/assets/imageLogin.png" />
+<img alt="funcionamento da aplicação" src="src/assets/gifAplication.gif" />
 
 ## Para rodar a aplicação localmente
 

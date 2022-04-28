@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "email": "admin@admin.com.br",
+      "name": "admin",
+      "age": 25,
+      "city": "BH"
+    },
+    {
+      "email": "validate@validate.com.br",
+      "name": "validate",
+      "age": 30,
+      "city": "SP"
+    }
+  ]
+}
+
