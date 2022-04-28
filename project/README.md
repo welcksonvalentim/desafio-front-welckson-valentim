@@ -18,7 +18,7 @@ Realizado deploy da aplicação na plataforma Surge (em virutde do número de ap
 
 ### Ilustração da aplicação em funcionamento
 
-<img alt="Imagem tela de Login" src="src/assets/imageLogin.png" />
+<img alt="funcionamento da aplicação" src="src/assets/gifAplication.gif" />
 
 ## Para rodar a aplicação localmente
 
