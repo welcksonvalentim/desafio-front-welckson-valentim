@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import '../App.css';
 
 function Login() {
-
+  const navigate = useNavigate();
   const [login, setLogin] = useState({
     email: '',
   });
@@ -15,7 +16,7 @@ function Login() {
 
   const handleClick = (event) => {
     localStorage.setItem('user', JSON.stringify({ email: login.email }));
-    window.location.href.push('/perfil');
+    navigate('/profile');
   };
 
   return (
