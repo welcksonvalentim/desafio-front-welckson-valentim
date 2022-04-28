@@ -37,16 +37,29 @@ function Profile() {
     findUsers();
   }, []);
 
+  const handle = ({ target: { name, value } }) => {
+    setUser({ ...user, [name]: value });
+  };
 
   return (
     <section>
       <Header />
       { user ? (
       <section className="settingSectionPerfil">
-        <h4>{user.email}</h4>
-        <h4>{user.name}</h4>
-        <h4>{user.age}</h4>
-        <h4>{user.city}</h4>
+        <form >
+        <label htmlFor="email">
+          <input name="email" value={ user.email }  onChange={ handle } type="email" required />
+        </label>
+        <label htmlFor="name">
+          <input name="name" value={ user.name } onChange={ handle } type="name" required />
+        </label>
+        <label htmlFor="age">
+          <input name="age" value={ user.age } onChange={ handle } type="age" required />
+        </label>
+        <label htmlFor="city">
+          <input name="city" value={ user.city} onChange={ handle } type="city" required />
+        </label>
+      </form>
         <button
           type="button"
           onClick={ handleClickExit }
